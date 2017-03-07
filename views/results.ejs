@@ -1,0 +1,12 @@
+<h1>Results Page.</h1>
+
+
+<% data["forecast"].forEach(function(date) { %>
+    <li>
+        <%= date["simpleforecast"]%>
+    </li>
+<% }); %>
+
+<br>
+
+<a href="/">Search again</a>
